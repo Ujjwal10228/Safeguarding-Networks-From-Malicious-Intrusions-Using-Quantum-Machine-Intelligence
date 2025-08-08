@@ -49,6 +49,8 @@ The algorithm was evaluated on three benchmark IDS datasets:
 - **UNSW-NB15** — 43 selected features capturing realistic attack scenarios.
 - **BoT-IoT** — IoT-specific dataset with diverse network attack patterns.
 
+- Whereas I've implemented it on UNSW-NB15, others are similar to work.
+
 ---
 
 ## 🚀 Results
@@ -58,15 +60,3 @@ Across all datasets, QMGOA consistently outperformed state-of-the-art metaheuris
 - **Precision**
 - **F-measure**
 - **Reduced computation time**
-
-Example (BoT-IoT, SVM-RBF):
-| Metric      | QMGOA  |
-|-------------|--------|
-| Accuracy    | 98.21% |
-| DR          | 97.66% |
-| Precision   | 98.89% |
-| F-measure   | 95.32% |
-
----
-
-## 📂 Repository Structure
